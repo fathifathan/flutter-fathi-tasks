@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:get/get.dart';
+
+import 'providers/name_provider.dart';
+
 import 'pages/todo_page.dart';
 import 'pages/provider_page.dart';
 import 'pages/getx_page.dart';
-import 'providers/name_provider.dart';
+import 'pages/login_page.dart';
+import 'pages/splash_screen.dart';
 
 void main() {
   runApp(
@@ -12,10 +16,25 @@ void main() {
       providers: [
         ChangeNotifierProvider(create: (_) => NameProvider()),
       ],
-      child: const MyApp(),
+      
+      child: const SplashWrapper(),
     ),
   );
 }
+
+
+class SplashWrapper extends StatelessWidget {
+  const SplashWrapper({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: SplashScreen(),
+    );
+  }
+}
+
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
@@ -31,6 +50,7 @@ class _MyAppState extends State<MyApp> {
     ToDoPage(),
     ProviderPage(),
     GetXPage(),
+    LoginPage(),
   ];
 
   void _onItemTapped(int index) {
@@ -57,6 +77,7 @@ class _MyAppState extends State<MyApp> {
             NavigationDestination(icon: Icon(Icons.list_alt), label: 'To-Do'),
             NavigationDestination(icon: Icon(Icons.people_alt), label: 'Provider'),
             NavigationDestination(icon: Icon(Icons.bolt), label: 'GetX'),
+            NavigationDestination(icon: Icon(Icons.login), label: 'Login'),
           ],
         ),
       ),
