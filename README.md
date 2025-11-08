@@ -1,4 +1,4 @@
-# Week 08 Running Task Update - pemrograman mobile (Fluer/Dart)
+# Week 08 Running Task Update - pemrograman mobile (Flutter/Dart)
 
 ## Flutter Login Form (SharedPreferences)
 
