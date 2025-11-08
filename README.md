@@ -1,23 +1,51 @@
-# Flutter To-Do List (Provider & GetX)
+# Week 08 Running Task Update - pemrograman mobile (Fluer/Dart)
 
-A simple Flutter app demonstrating state management using **Provider** and **GetX**.
+## Flutter Login Form (SharedPreferences)
+
+A simple Flutter app demonstrating **form validation**, **password visibility toggle**, and **local data storage** using `SharedPreferences`.
+
+---
 
 ## ✨ Features
-- Add and remove tasks dynamically
-- Live data updates with Provider and GetX
-- Clean modern UI design
-- Bottom navigation for multiple pages
+- Input fields: **Nama Lengkap**, **Email**, **Password**, dan **Konfirmasi Password**
+- Form validation for all input fields  
+- Toggle **"Lihat Password 👁"** feature  
+- Save user data locally using **SharedPreferences**
+- Clean, modern UI with rounded cards and soft shadows  
+
+---
 
 ## 🧰 Tech Stack
-- Flutter
-- Provider
-- GetX (optional)
-- Material Design 3
+- **Flutter**
+- **Dart**
+- **SharedPreferences**
+- **Material Design 3**
+
+---
 
 ## 📸 Screenshots
-*<img width="637" height="990" alt="Cuplikan layar 2025-10-31 231715" src="https://github.com/user-attachments/assets/e63f154a-6802-4a7f-8209-41e76d01e42a" />
+*<img width="626" height="978" alt="image" src="https://github.com/user-attachments/assets/7eb1c206-742e-4b8e-a6ca-a6195524fef0" />
 *
 
 ---
 
-Developed for learning Flutter state management 🧠
+## How to Run
+1. Clone this repository  
+   ```bash
+   git clone <repo-url>
+   
+2. Navigate into the project folder
+   ```bash
+   cd flutter-login-sharedprefs
+
+3. Install dependencies
+   ```bash
+   flutter pub get
+
+4. Run the app
+   ```bash
+   flutter run
+   
+---
+
+Developed for learning Flutter state management 
