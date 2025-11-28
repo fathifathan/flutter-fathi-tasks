@@ -1,15 +1,14 @@
-# Week 08 Running Task Update - pemrograman mobile (Flutter/Dart)
+# Week 11 Running Task Update - pemrograman mobile (Flutter/Dart)
 
-## Flutter Login Form (SharedPreferences)
+## Update Fitur Flutter 
 
-A simple Flutter app demonstrating **form validation**, **password visibility toggle**, and **local data storage** using `SharedPreferences`.
+Simple Flutter app and for updates now shows **Refresh Icon**, **Last Refresh**, and **Cache Cleared** using `SharedPreferences`.
 
 ---
 
 ## ✨ Features
-- Input fields: **Nama Lengkap**, **Email**, **Password**, dan **Konfirmasi Password**
-- Form validation for all input fields  
-- Toggle **"Lihat Password 👁"** feature  
+- New Icon: **Cache**, and **Refresh**
+- **Last Refresh data** with **date**  
 - Save user data locally using **SharedPreferences**
 - Clean, modern UI with rounded cards and soft shadows  
 
@@ -20,12 +19,18 @@ A simple Flutter app demonstrating **form validation**, **password visibility to
 - **Dart**
 - **SharedPreferences**
 - **Material Design 3**
+- **Provider**
+- **Controller**
 
 ---
 
 ## 📸 Screenshots
-*<img width="626" height="978" alt="image" src="https://github.com/user-attachments/assets/7eb1c206-742e-4b8e-a6ca-a6195524fef0" />
-*
+AFTER REFRESH CACHE
+<img width="622" height="883" alt="Cuplikan layar 2025-11-28 104658" src="https://github.com/user-attachments/assets/ebfa4028-8ba1-4538-af8f-498256a022a7" />
+
+AFTER CLEAR CACHE
+<img width="626" height="881" alt="Cuplikan layar 2025-11-28 104705" src="https://github.com/user-attachments/assets/6a3f7109-c012-48df-9d31-f2d276c87efa" />
+
 
 ---
 
